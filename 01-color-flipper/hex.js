@@ -8,7 +8,7 @@ btn.addEventListener("click", () => {
     //   hexColor += hex[i];
       hexColor += Math.floor(Math.random() * hex.length);
   };
-//   color.textContent = Math.floor(Math.random() * hexColor);
+  // color.textContent = Math.floor(Math.random() * hexColor);
   color.textContent = hexColor;
   document.body.style.backgroundColor = hexColor;
 });
